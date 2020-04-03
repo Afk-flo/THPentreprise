@@ -1,0 +1,311 @@
+/*  V1.1 */
+
+*, ul {
+  font-family: 'Baloo Thambi 2', cursive;
+  list-style: none;
+}
+
+i {
+  color:green;
+}
+.bodycover {
+  background-image: url("images/top3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  
+}
+
+.title {
+  color :#fff;
+  font-size:60px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sub-title {
+  color :#fff;
+  font-size:50px;
+  text-transform: uppercase;
+}
+
+.title-color {
+color:#d9bf77;
+}
+
+
+.navbar {
+  margin-top: 70px;
+}
+
+.nav-link {
+  color:#fff;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color:#d9bf77;
+}
+
+.btn-title {
+  background-color: transparent;
+  border:2px solid #fff;
+  width: 200px;
+  height: 60px;
+  border-radius: 20px;
+  font-size:20px;
+}
+
+.btn-title>a {
+  color:#fff;
+}
+
+.btn-title>a:hover{
+  text-decoration: none;
+}
+
+.btn-title:hover {
+  background-color: rgb(0,0,0,0.2);
+  border-color: #d9bf77;
+  box-shadow: 9px 12px 28px -9px rgba(0,0,0,0.4);
+}
+
+
+/* Partie 2 -> Bloc */ 
+
+.partie2 {
+  height: 700px;
+}
+
+.bloc1 {
+ 
+  height: 480px;
+  margin-top:80px;
+  background-image: url("images/side.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color:#fff;
+}
+
+.bloc2 {
+  border:1px solid black;
+  height: 450px;
+  margin-top:150px;
+  margin-left: -120px;
+  background-color: rgb(255,255,255,0.8);
+  color:#000
+}
+
+.h3-bloc {
+  border-bottom: 2px solid #d9bf77;
+}
+
+.bw {
+  border-bottom: 1px solid green;
+}
+
+
+/* Les blocks qui seront visible uniquement sur petits écrans */ 
+.bloc11 {
+  margin-top:20px;
+  height: 250px;
+  background-image: url("images/side.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: -20px;
+}
+
+.bloc21 {
+  border:2px solid black;
+  margin-top:20px;
+
+}
+
+
+
+/* Partie 3  - COMPETENCEs  */
+
+#comp {
+  margin-top: 170px;
+}
+.fa-chevron-down {
+  color:#fff;
+}
+
+.patt {
+  color:#000;
+  margin-top: 165px;
+  margin-bottom: 120px;
+}
+
+.patt>h1 {
+  text-transform:uppercase;
+}
+
+.btn-collapse {
+ font-size: 20px;
+ margin-top: 30px;
+}
+
+.collapse {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+.collapse-title {
+  font-size: 28px;
+  border-bottom: 2px solid #d9bf77;
+}
+
+.collapse>i {
+  font-size:25px;
+}
+.fa-html5, .fa-php, .fa-bullhorn, .fa-search-location {
+  margin-top: 30px;
+}
+
+
+/*  ecart   */ 
+
+.cor {
+  margin-top:220px;
+  height: 500px;
+  background-image: url("images/midle.jpg");
+   background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cor2 {
+  margin-top:220px;
+  height: 500px;
+  background-image: url("images/midle.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+/* Partie 4 -- Prix */ 
+
+
+.prix {
+  margin-top: 220px;
+  background-image: url("images/side3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.card-text{
+  font-size:20px;
+
+}
+
+.prix1 {
+  margin-top: 60px;
+  height: 450px;
+  background-color: rgb(255,255,255,0.95);
+
+}
+
+.prix2 {
+  margin-top:40px;
+  margin-bottom:40px;
+  height: 550px;
+  background-color: rgb(255,255,255,0.96);
+}
+
+.prix3 {
+  margin-top: 60px;
+  height: 450px;
+  background-color: rgb(255,255,255,0.95);
+}
+
+
+.prix1:hover,.prix2:hover,.prix3:hover {
+  background-color: rgb(255, 255, 255,0.99);
+  box-shadow: 9px 12px 35px -9px rgba(0,0,0,0.9);
+
+}
+
+.card-header {
+  font-size: 1.5em;
+}
+
+
+.card-title{
+  font-size:2.5em;
+}
+
+.btn-footer {
+  border:1px solid #639a67;
+  margin-top:20px;
+  margin-bottom: 10px;
+  background-color:transparent; 
+  color:#000;
+}
+
+.btn-footer:hover{
+  border-color: #639a67;
+  background-color:#fff;
+  box-shadow: 9px 12px 28px -9px rgba(0,0,0,0.4);
+  color:#000;
+}
+
+
+.text-green {
+  color:#639a67;
+}
+
+
+/* Contact */ 
+
+.contact {
+  margin-top: 150px;
+}
+
+.passion>img {
+  width:400px;
+}
+
+.label {
+  color: green;
+}
+
+.btn-submit {
+  width: 30%;
+}
+
+.form-control:focus{
+  border-color: green;
+  outline: green;
+  box-shadow: 0px 10px 5px -6px #d6d5d2;
+
+}
+
+/*  Fin - Footer */
+
+.fin {
+  margin-top:40px;
+  background-color: #d9bf77;
+  color:#444;
+}
+
+.fa-heart {
+  color: red;
+}
+
+.fin>p{
+  margin-top: auto;
+  margin-bottom: auto;
+}

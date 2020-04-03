@@ -1,2 +1,1 @@
-# THPentreprise
-Création d'un site d'entreprise dans le cadre de la formation THP
+Création d'un site pour une entreprise fictive dnas le cadre d'un projet pour THP 
